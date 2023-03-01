@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	//border: 1px solid black;
+}
+
+body{
+	background-color: black;
+}
+#beijing {
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#beijing img {
+	width: 100%;
+	margin-top: -600px;
+}
+
+#biaoti {
+	width: 100%;
+background-color: black;
+	text-align: center;
+
+}
+#biaoti h1{
+	color: white;
+}
+#biaoti p {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 5px;
+	color: white;
+}
+
+.tupian {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.tupian img {
+	display: block;
+	flex: 1;
+	margin: 5px;
+	box-shadow: 5px 10px 10px pink;
+}
+
+.tupian1 {
+	width: 100%;
+	height: 900px;
+	display: flex;
+	flex-direction: row;
+}
+
+.tupian1 img {
+	display: block;
+	flex: 1;
+	margin: 5px;
+	box-shadow: 5px 10px 10px pink;
+}
+#shipin{
+	width: 100%;
+	text-align: center;
+}
+#shipin video{
+	margin: 10px;
+	box-shadow: 10px 20px 15px pink;
+}
